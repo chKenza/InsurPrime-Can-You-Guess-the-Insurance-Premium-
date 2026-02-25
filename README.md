@@ -14,13 +14,14 @@ We incorporate the year as an exposure offset in the frequency model. Model perf
 - **feature_engineering.ipynb** : Feature engineering pipeline and baseline GLM model.
 - **data_preprocessing.py** and **feature_eng.py** : Data preprocessing the feature engineering functions, respectively. The functions can be imported from these files and used across models.
 - **hgbr.ipynb** : Histogram-based Gradient Boosting Regressor implementation, including hyperparameter tuning.
+- **catboost.ipynb** : Catboost implementation.
 
 ## Performance:
 
 | Model    | GLM      | HGBR     | CatBoost 
 |----------|----------|----------|----------
-| **RMSE** | -        | 5598.75  | -
-| **Time** | -        | 2m 21s   |
+| **RMSE** |  5603.60 | 5598.75  | 5599.61
+| **Time** |   1.6s   | 2m 21s   | 34m 41s
 
 ## Build the Project:
 The dataset for this project can be found ([here](https://challengedata.ens.fr/participants/challenges/161/)). 
