@@ -1,4 +1,4 @@
-# InsurPrime-Can-You-Guess-the-Insurance-Premium-
+# InsurPrime: Can You Guess the Insurance Premium?
 Crédit Agricole Assurances Data Challenge ([source](https://challengedata.ens.fr/participants/challenges/161/))
 
 We present our solution to the challenge offered by Crédit Agricole Assurances, aiming to predict the pure fire premium for agricultural insurance contracts. The premium is decomposed into claim frequency, average claim severity, and exposure. 
