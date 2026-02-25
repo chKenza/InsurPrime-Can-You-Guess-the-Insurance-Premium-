@@ -20,7 +20,7 @@ We incorporate the year as an exposure offset in the frequency model. Model perf
 | Model    | GLM      | HGBR     | CatBoost 
 |----------|----------|----------|----------
 | **RMSE** | -        | 5598.75  | -
-| **Time** | -        | 2m 55s   |
+| **Time** | -        | 2m 21s   |
 
 ## Build the Project:
 The dataset for this project can be found ([here](https://challengedata.ens.fr/participants/challenges/161/)). 
