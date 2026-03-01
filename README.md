@@ -15,12 +15,13 @@ We incorporate the year as an exposure offset in the frequency model. Model perf
 - **data_preprocessing.py** and **feature_eng.py** : Data preprocessing the feature engineering functions, respectively. The functions can be imported from these files and used across models.
 - **hgbr.ipynb** : Histogram-based Gradient Boosting Regressor implementation, including hyperparameter tuning.
 - **catboost.ipynb** : Catboost implementation, including hyperparameter tuning.
+- **InsurPrime.pdf** : Detailed report.
 
 ## Performance:
 
 | Model    | GLM      | HGBR     | CatBoost 
 |----------|----------|----------|----------
-| **RMSE** |  5603.60 | 5598.75  | 5599.61
+| **RMSE** |  5603.60 | 5598.75  | 5599.58
 | **Time** |   1.6s   | 2m 21s   | 37m 30s
 
 ## Build the Project:
